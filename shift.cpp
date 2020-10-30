@@ -19,17 +19,7 @@ int countNodes(Node* head){
     }
     return count;
 }
-void print(Node* head){
-    if(head==NULL){
-        cout<<"linked list is empty ";
-    }
-    Node* ptr=NULL;
-    ptr=head;
-    while(ptr!=NULL){
-        cout<<ptr->data<<" ";
-        ptr=ptr->link;
-    }
-}
+
 int main(){
     Node* head=NULL;
     head=new Node;
