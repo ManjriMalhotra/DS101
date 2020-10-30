@@ -5,13 +5,7 @@ class node{
     int data;
     node* link;
 };
-void print(node* head){
-    node* ptr=head;
-    while(ptr!=NULL){
-        cout<<ptr->data<<" ";
-        ptr=ptr->link;
-    }cout<<endl;
-}
+
 void deleteHead(node* &head){
     if( head==NULL){
         cout<<"LL is empty";
