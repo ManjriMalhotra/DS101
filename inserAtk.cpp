@@ -38,20 +38,7 @@ void insertEnd(Node* head,int data){
     }
     ptr->link=temp;
 }
-void print(Node* head){
 
-    if(head==NULL){
-        cout<< "ll is empty ";
-    }
-
-    Node* ptr=NULL;
-    ptr=head;
-    while (ptr!=NULL){
-        cout<<ptr->data<<" ";
-        ptr=ptr->link;
-    }cout<<endl;
-    
-}
 int main(){
     Node* head=NULL;
     head=new Node;
