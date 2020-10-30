@@ -9,10 +9,7 @@ class Node {
   int value;
   Node* link;
 };
-void print(Node* head){
-    if(head==NULL){
-        cout<<"LL is empty";
-    }
+
     Node* ptr;
     ptr=head;
     // print the linked list value
