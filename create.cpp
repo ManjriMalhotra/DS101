@@ -15,7 +15,7 @@ void print(Node* head){
     }
     Node* ptr;
     ptr=head;
-    // print the linked list value
+    
   while (ptr != NULL) {
     cout<< ptr->value<<" ";
     ptr = ptr->link;
