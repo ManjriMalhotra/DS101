@@ -18,10 +18,7 @@ void print(Node* head){
     
 }
 void insertAtHead(Node* &head,int data){
-    // if(head==NULL){
-    //     head=new Node;
-    //     head->data=data;
-    // }
+    
     Node* temp=NULL;
     temp=new Node;
     temp->data=data;
